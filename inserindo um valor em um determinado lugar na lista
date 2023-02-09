@@ -1,0 +1,8 @@
+"""
+como inserir um valor em um determinado lugar na lista?
+"""
+lista1 = ['a', 'c', 'c', 'j']
+print(lista1)
+t = int(input('Diga a posição: '))
+lista1.insert(t, 'Novo valor') #lembrando que aqui o novo valor será inserido na posição 2, ou seja 0,1,2
+print(lista1)
